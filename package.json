@@ -1,0 +1,20 @@
+{
+  "name": "midas-whatsapp-discord-bridge",
+  "version": "1.2.0",
+  "private": true,
+  "description": "MIDAS WhatsApp ↔ Discord bridge with up to 10 configurable channel/group pairs",
+  "main": "bridge.js",
+  "scripts": {
+    "start": "node bridge.js",
+    "groups": "node list-groups.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}
